@@ -36,7 +36,7 @@ const jsonData= JSON.stringify(data);
 const url="https://us21.api.mailchimp.com/3.0/lists/762956fb4c";
 const options={
   method:"POST",
-  auth:"harry:3b5ae29d6d559886de2df4b393171e49-us21"
+  auth:"harry:beab67d2eb05874f141966456f1c3036-us21"
 }
   
 // On success send users to success, otherwise on failure template 
