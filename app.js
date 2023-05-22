@@ -7,7 +7,6 @@ const app= express();
 app.use(express.static("public"));
   
 app.use(bodyparser.urlencoded({extended:true}));
-  
 // On the home route, send signup html template
 app.get("/",function(req,res){
     res.sendFile(__dirname + "/signup.html");
